@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         options: {
           targetDir: './static/modules',
           install: true,
-          verbose: true,
+          verbose: false,
           cleanTargetDir: true,
           cleanBowerDir: true,
           bowerOptions: {}
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['static/js/app/**/*.js', 'static/sass/**/*.scss', 'static/sass/**/*.scss'],
+        files: ['app/**/*.js', 'static/sass/**/*.scss', 'static/sass/**/*.scss'],
         tasks: ['jshint', 'sass', 'scsslint'],
         options: {
           spawn: false
