@@ -17,10 +17,10 @@ define(['./app', 'angularAMD'], function(app, angularAMD) {
                         templateUrl: 'templates/login.html',
                         controllerUrl: 'controllers/LoginCtrl'
                     }),
-                    // "header": angularAMD.route({
-                    //     templateUrl: 'templates/layouts/base/_header.html'
-                    //     //controllerUrl: 'controllers/LoginCtrl'
-                    // }),
+                    "header": angularAMD.route({
+                        templateUrl: 'templates/layouts/base/_header.html'
+                        //controllerUrl: 'controllers/LoginCtrl'
+                    }),
                     "footer": angularAMD.route({
                         templateUrl: 'templates/layouts/base/_footer.html'
                         //controllerUrl: 'controllers/LoginCtrl'

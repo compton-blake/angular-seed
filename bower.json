@@ -5,6 +5,7 @@
     "jquery": "1.9.1",
     "angular": "*",
     "angular-ui": "*",
+    "angularAMD": "*",
     "ui-router": "*",
     "bootstrap-ui": "*",
     "bootstrap-sass": "*",
